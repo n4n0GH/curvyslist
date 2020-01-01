@@ -1,0 +1,6 @@
+body {
+    background-image: url('bg.png'); 
+}
+.public-list:hover{
+    background-color:rgb(70, 71, 92);
+}
