@@ -46,23 +46,3 @@ npm run serve
 ```
 npm run build
 ```
-
-## What needs to be done
-
-### General (App.vue + main.js)
-- Connect UI to smart contract.
-
-### Buy component (split)
-
-#### Manual.vue
-- A check on the input to validate against the rules of purchasing names.
-
-#### List.vue
-- Smart contract needs to be queried for all available names on load put up by users, then listed using the v-for loop.
-
-### Sell component (Sell.vue)
-- Specify a price per name.
-- Using the 'sell' button to actually put the names up for sale through the smart contract functions.
-
-### Cart component (Cart.vue)
-- Wire the purchase button to the actual purchase function of the smart contract and generate the proper transaction.
